@@ -1,30 +1,29 @@
-# ✅ MySQL কোর্স আউটলাইন (বাংলায় Checklist Style)
-
-## 1. [ ] SQL ও RDBMS এর পরিচিতি
+## ১। [ ] SQL ও RDBMS এর পরিচিতি
 - [ ] ডেটাবেজ কী?
-- [ ] রিলেশনাল ডেটাবেজ ও RDBMS কী?
-- [ ] SQL কী ও কেন ব্যবহার করবো?
+- [ ] রিলেশনাল ডেটাবেজ কী?
+- [ ] RDBMS কীভাবে কাজ করে?
+- [ ] SQL কী এবং এর প্রয়োজনীয়তা
 - [ ] SQL বনাম NoSQL
 
-## 2. [ ] SQL সিনট্যাক্স ও স্ট্রাকচার
-- [ ] SQL স্টেটমেন্ট লেখার নিয়ম
-- [ ] কেস-ইনসেন্সিটিভ সিনট্যাক্স
-- [ ] কমেন্ট লেখার নিয়ম
+## ২। [ ] SQL সিনট্যাক্স ও গঠন
+- [ ] SQL স্টেটমেন্ট লেখার নিয়ম
+- [ ] কেস ইনসেনসিটিভ বৈশিষ্ট্য
+- [ ] কমেন্ট লেখার নিয়ম
 - [ ] সেমিকোলনের ব্যবহার
 
-## 3. [ ] Data Definition Language (DDL)
+## ৩। [ ] ডেটা ডেফিনিশন ল্যাংগুয়েজ (DDL)
 - [ ] CREATE TABLE
 - [ ] ALTER TABLE
 - [ ] DROP TABLE
 - [ ] TRUNCATE TABLE
 
-## 4. [ ] Data Manipulation Language (DML)
+## ৪। [ ] ডেটা ম্যানিপুলেশন ল্যাংগুয়েজ (DML)
 - [ ] SELECT
 - [ ] INSERT
 - [ ] UPDATE
 - [ ] DELETE
 
-## 5. [ ] Aggregate Functions ও Grouping
+## ৫। [ ] আগ্রিগেট ফাংশন ও গ্রুপিং
 - [ ] SUM
 - [ ] AVG
 - [ ] MIN
@@ -33,14 +32,14 @@
 - [ ] GROUP BY
 - [ ] HAVING
 
-## 6. [ ] Constraints ও Keys
+## ৬। [ ] কনস্ট্রেইন্ট ও কী
 - [ ] PRIMARY KEY
 - [ ] FOREIGN KEY
 - [ ] UNIQUE
 - [ ] NOT NULL
 - [ ] CHECK
 
-## 7. [ ] JOIN অপারেশন
+## ৭। [ ] JOIN অপারেশন
 - [ ] INNER JOIN
 - [ ] LEFT JOIN
 - [ ] RIGHT JOIN
@@ -48,13 +47,13 @@
 - [ ] SELF JOIN
 - [ ] CROSS JOIN
 
-## 8. [ ] Subqueries
-- [ ] Scalar subquery
-- [ ] Table subquery
-- [ ] Nested subquery
-- [ ] Correlated subquery
+## ৮। [ ] সাব-কুয়েরি (Subqueries)
+- [ ] Scalar Subquery
+- [ ] Table Subquery
+- [ ] Nested Subquery
+- [ ] Correlated Subquery
 
-## 9. [ ] Functions ও Expressions
+## ৯। [ ] ফাংশন ও এক্সপ্রেশন
 - [ ] CONCAT
 - [ ] SUBSTRING
 - [ ] UPPER
@@ -72,18 +71,18 @@
 - [ ] NULLIF
 - [ ] COALESCE
 
-## 10. [ ] Views
+## ১০। [ ] ভিউ (Views)
 - [ ] CREATE VIEW
 - [ ] ALTER VIEW
 - [ ] DROP VIEW
-- [ ] ভিউ ব্যবহারের সুবিধা
+- [ ] ভিউ-এর ব্যবহার ও সুবিধা
 
-## 11. [ ] Indexes ও Query Optimization
+## ১১। [ ] ইনডেক্স ও কুয়েরি অপ্টিমাইজেশন
 - [ ] CREATE INDEX
 - [ ] DROP INDEX
-- [ ] EXPLAIN দিয়ে পারফরম্যান্স চেক
+- [ ] EXPLAIN দিয়ে কুয়েরি বিশ্লেষণ
 
-## 12. [ ] Transactions ও ACID Properties
+## ১২। [ ] ট্রাঞ্জেকশন ও ACID প্রপার্টিজ
 - [ ] BEGIN
 - [ ] COMMIT
 - [ ] ROLLBACK
@@ -94,27 +93,27 @@
 - [ ] Durability
 - [ ] Isolation Levels
 
-## 13. [ ] Security ও User Permissions
+## ১৩। [ ] সিকিউরিটি ও ইউজার পারমিশন
 - [ ] GRANT
 - [ ] REVOKE
-- [ ] SQL Injection থেকে সুরক্ষা
-- [ ] ব্যবহারকারী ও রোল ম্যানেজমেন্ট
+- [ ] SQL Injection থেকে রক্ষা
+- [ ] ব্যবহারকারী ও রোল ব্যবস্থাপনা
 
-## 14. [ ] Stored Procedures ও Functions
+## ১৪। [ ] স্টোরড প্রসিডিউর ও ফাংশন
 - [ ] CREATE PROCEDURE
 - [ ] CREATE FUNCTION
 - [ ] ইনপুট/আউটপুট প্যারামিটার
 - [ ] CALL
 - [ ] DELIMITER ব্যবহার
 
-## 15. [ ] Performance Optimization Techniques
-- [ ] Slow query optimization
-- [ ] JOIN অপ্টিমাইজ করা
-- [ ] Execution Plan বিশ্লেষণ (EXPLAIN)
-- [ ] Index suggestion
+## ১৫। [ ] পারফরম্যান্স অপ্টিমাইজেশন
+- [ ] Slow Query Optimization
+- [ ] JOIN অপ্টিমাইজেশন
+- [ ] EXPLAIN দিয়ে কুয়েরি বিশ্লেষণ
+- [ ] Index Suggestion
 
-## 16. [ ] Advanced SQL Concepts
-- [ ] Recursive Queries (CTE)
+## ১৬। [ ] অ্যাডভান্সড SQL কনসেপ্ট
+- [ ] Recursive Query (CTE)
 - [ ] Pivot
 - [ ] Unpivot
 - [ ] ROW_NUMBER()
