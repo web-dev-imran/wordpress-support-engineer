@@ -1,29 +1,54 @@
-## ১। [ ] SQL ও RDBMS এর পরিচিতি
+# ✅ MySQL ভিডিও টিউটোরিয়াল সিরিজ - কোর্স আউটলাইন (বাংলা)
+
+### ১। SQL ও RDBMS এর পরিচিতি
 - [ ] ডেটাবেজ কী?
 - [ ] রিলেশনাল ডেটাবেজ কী?
-- [ ] RDBMS কীভাবে কাজ করে?
-- [ ] SQL কী এবং এর প্রয়োজনীয়তা
+- [ ] RDBMS এর বৈশিষ্ট্য ও উপকারিতা
+- [ ] SQL কী এবং এর ইতিহাস
 - [ ] SQL বনাম NoSQL
+- [ ] DBMS বনাম RDBMS
+- [ ] জনপ্রিয় SQL সফটওয়্যার: MySQL, PostgreSQL, SQL Server
 
-## ২। [ ] SQL সিনট্যাক্স ও গঠন
+### ২। SQL সিনট্যাক্স ও গঠন
 - [ ] SQL স্টেটমেন্ট লেখার নিয়ম
-- [ ] কেস ইনসেনসিটিভ বৈশিষ্ট্য
-- [ ] কমেন্ট লেখার নিয়ম
+- [ ] SQL কেস ইনসেনসিটিভ
 - [ ] সেমিকোলনের ব্যবহার
+- [ ] কমেন্ট লেখার নিয়ম
+- [ ] কীওয়ার্ড, ফাংশন, অপারেটর আলাদা করার কৌশল
+- [ ] Query formatting tips
 
-## ৩। [ ] ডেটা ডেফিনিশন ল্যাংগুয়েজ (DDL)
+### ৩। ডেটা ডেফিনিশন ল্যাংগুয়েজ (DDL)
+- [ ] CREATE DATABASE
 - [ ] CREATE TABLE
-- [ ] ALTER TABLE
+- [ ] CREATE TABLE IF NOT EXISTS
+- [ ] CREATE TABLE LIKE
+- [ ] ALTER TABLE – ADD COLUMN
+- [ ] ALTER TABLE – MODIFY COLUMN
+- [ ] ALTER TABLE – DROP COLUMN
+- [ ] ALTER TABLE – RENAME COLUMN
+- [ ] RENAME TABLE
 - [ ] DROP TABLE
+- [ ] DROP DATABASE
 - [ ] TRUNCATE TABLE
+- [ ] COMMENT যুক্ত করা
 
-## ৪। [ ] ডেটা ম্যানিপুলেশন ল্যাংগুয়েজ (DML)
+### ৪। ডেটা ম্যানিপুলেশন ল্যাংগুয়েজ (DML)
+- [ ] INSERT INTO
+- [ ] INSERT INTO SELECT
+- [ ] INSERT DEFAULT VALUE
 - [ ] SELECT
-- [ ] INSERT
+- [ ] SELECT DISTINCT
+- [ ] SELECT WHERE
+- [ ] SELECT ORDER BY
+- [ ] SELECT LIMIT / OFFSET
 - [ ] UPDATE
-- [ ] DELETE
+- [ ] UPDATE WHERE
+- [ ] DELETE FROM
+- [ ] DELETE WITH JOIN
+- [ ] REPLACE INTO
+- [ ] MERGE (Applicable case)
 
-## ৫। [ ] আগ্রিগেট ফাংশন ও গ্রুপিং
+### ৫। Aggregate Functions ও Grouping
 - [ ] SUM
 - [ ] AVG
 - [ ] MIN
@@ -31,94 +56,130 @@
 - [ ] COUNT
 - [ ] GROUP BY
 - [ ] HAVING
+- [ ] COUNT DISTINCT
 
-## ৬। [ ] কনস্ট্রেইন্ট ও কী
+### ৬। Constraints ও Keys
 - [ ] PRIMARY KEY
+- [ ] COMPOSITE PRIMARY KEY
 - [ ] FOREIGN KEY
+- [ ] ON DELETE/UPDATE CASCADE
 - [ ] UNIQUE
 - [ ] NOT NULL
+- [ ] DEFAULT
 - [ ] CHECK
+- [ ] ENUM constraint
+- [ ] AUTO_INCREMENT
+- [ ] CONSTRAINT নামকরণ
+- [ ] DROP CONSTRAINT
+- [ ] MODIFY CONSTRAINT
 
-## ৭। [ ] JOIN অপারেশন
+### ৭। JOIN অপারেশন
 - [ ] INNER JOIN
 - [ ] LEFT JOIN
 - [ ] RIGHT JOIN
 - [ ] FULL OUTER JOIN
 - [ ] SELF JOIN
 - [ ] CROSS JOIN
+- [ ] NATURAL JOIN
+- [ ] JOIN Performance Tips
 
-## ৮। [ ] সাব-কুয়েরি (Subqueries)
+### ৮। Subqueries
 - [ ] Scalar Subquery
 - [ ] Table Subquery
 - [ ] Nested Subquery
 - [ ] Correlated Subquery
+- [ ] Subquery in WHERE
+- [ ] Subquery in FROM
+- [ ] Subquery in SELECT
 
-## ৯। [ ] ফাংশন ও এক্সপ্রেশন
+### ৯। ফাংশন ও এক্সপ্রেশন
 - [ ] CONCAT
 - [ ] SUBSTRING
-- [ ] UPPER
-- [ ] LOWER
+- [ ] UPPER / LOWER
 - [ ] REPLACE
-- [ ] NOW()
-- [ ] CURDATE()
+- [ ] LENGTH / CHAR_LENGTH
+- [ ] NOW(), CURDATE(), CURTIME()
 - [ ] DATEDIFF()
-- [ ] DATE_ADD()
-- [ ] ROUND
-- [ ] FLOOR
-- [ ] CEIL
-- [ ] MOD
+- [ ] DATE_ADD(), DATE_SUB()
+- [ ] ROUND, FLOOR, CEIL, MOD
 - [ ] CASE
 - [ ] NULLIF
 - [ ] COALESCE
+- [ ] IF() function
+- [ ] CAST(), CONVERT()
 
-## ১০। [ ] ভিউ (Views)
+### ১০। Views
 - [ ] CREATE VIEW
 - [ ] ALTER VIEW
 - [ ] DROP VIEW
-- [ ] ভিউ-এর ব্যবহার ও সুবিধা
+- [ ] Updatable View
+- [ ] Nested View
+- [ ] View vs Table
 
-## ১১। [ ] ইনডেক্স ও কুয়েরি অপ্টিমাইজেশন
+### ১১। Indexes ও Query Optimization
 - [ ] CREATE INDEX
 - [ ] DROP INDEX
-- [ ] EXPLAIN দিয়ে কুয়েরি বিশ্লেষণ
+- [ ] UNIQUE INDEX
+- [ ] EXPLAIN দিয়ে কুয়েরি বিশ্লেষণ
+- [ ] Slow Query Log
+- [ ] Execution Plan
+- [ ] Covering Index
+- [ ] Clustered vs Non-clustered Index
+- [ ] Indexing Best Practices
 
-## ১২। [ ] ট্রাঞ্জেকশন ও ACID প্রপার্টিজ
-- [ ] BEGIN
+### ১২। Transactions ও ACID
+- [ ] START TRANSACTION
 - [ ] COMMIT
 - [ ] ROLLBACK
 - [ ] SAVEPOINT
+- [ ] RELEASE SAVEPOINT
+- [ ] READ UNCOMMITTED
+- [ ] READ COMMITTED
+- [ ] REPEATABLE READ
+- [ ] SERIALIZABLE
 - [ ] Atomicity
 - [ ] Consistency
 - [ ] Isolation
 - [ ] Durability
-- [ ] Isolation Levels
 
-## ১৩। [ ] সিকিউরিটি ও ইউজার পারমিশন
-- [ ] GRANT
-- [ ] REVOKE
-- [ ] SQL Injection থেকে রক্ষা
-- [ ] ব্যবহারকারী ও রোল ব্যবস্থাপনা
+### ১৩। Security ও User Management
+- [ ] CREATE USER
+- [ ] GRANT PRIVILEGES
+- [ ] REVOKE PRIVILEGES
+- [ ] SHOW GRANTS
+- [ ] WITH GRANT OPTION
+- [ ] DROP USER
+- [ ] SQL Injection প্রতিরোধ
 
-## ১৪। [ ] স্টোরড প্রসিডিউর ও ফাংশন
+### ১৪। Stored Procedures ও Functions
 - [ ] CREATE PROCEDURE
+- [ ] CALL PROCEDURE
 - [ ] CREATE FUNCTION
-- [ ] ইনপুট/আউটপুট প্যারামিটার
-- [ ] CALL
+- [ ] IN, OUT, INOUT Parameters
 - [ ] DELIMITER ব্যবহার
+- [ ] RETURN value
+- [ ] SET Variable
+- [ ] IF, CASE, WHILE, LOOP
 
-## ১৫। [ ] পারফরম্যান্স অপ্টিমাইজেশন
-- [ ] Slow Query Optimization
-- [ ] JOIN অপ্টিমাইজেশন
-- [ ] EXPLAIN দিয়ে কুয়েরি বিশ্লেষণ
-- [ ] Index Suggestion
+### ১৫। Performance Optimization
+- [ ] WHERE clause efficiency
+- [ ] SELECT only required columns
+- [ ] Avoid SELECT *
+- [ ] Use LIMIT properly
+- [ ] Indexing effectively
+- [ ] Avoid unnecessary subqueries
+- [ ] Partitioning
 
-## ১৬। [ ] অ্যাডভান্সড SQL কনসেপ্ট
-- [ ] Recursive Query (CTE)
-- [ ] Pivot
-- [ ] Unpivot
+### ১৬। Advanced SQL
+- [ ] Common Table Expressions (CTE)
+- [ ] Recursive Query
+- [ ] PIVOT / UNPIVOT
 - [ ] ROW_NUMBER()
 - [ ] RANK()
 - [ ] DENSE_RANK()
 - [ ] LEAD()
 - [ ] LAG()
 - [ ] Dynamic SQL
+- [ ] JSON in MySQL
+- [ ] Full Text Search
+- [ ] Temporary Tables
