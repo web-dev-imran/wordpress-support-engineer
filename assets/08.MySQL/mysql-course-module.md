@@ -98,12 +98,54 @@
 - [ ] নামের দৈর্ঘ্য (LENGTH) বের করা  
       `SELECT firstName, LENGTH(firstName) AS name_length FROM customers;`
 
-- [ ] UPDATE
-- [ ] UPDATE WHERE
-- [ ] DELETE FROM
-- [ ] DELETE WITH JOIN
-- [ ] REPLACE INTO
-- [ ] MERGE (Applicable case)
+
+- [ ] **ক্লাস ০৩ কন্টেন্ট এখান থেকে শুরু এবং** [ক্লাস ভিডিও এখানে]()
+
+এই ক্লাসে আমরা শিখবো Aggregate Functions (SUM, AVG, COUNT ইত্যাদি), Group By, এবং Having Clause কিভাবে কাজ করে। এগুলো মূলত ডেটা বিশ্লেষণের জন্য ব্যবহার হয়। নিচে ধারাবাহিকভাবে প্রতিটি টপিক ও কোয়েরি দেওয়া হলো:
+
+- [ ] SUM দিয়ে সব পণ্যের মোট মূল্য বের করা  
+      `SELECT SUM(price) FROM products;`
+
+- [ ] AVG দিয়ে পণ্যের গড় মূল্য বের করা  
+      `SELECT AVG(price) FROM products;`
+
+- [ ] MIN দিয়ে সবচেয়ে সস্তা পণ্যের দাম বের করা  
+      `SELECT MIN(price) FROM products;`
+
+- [ ] MAX দিয়ে সবচেয়ে দামি পণ্যের দাম বের করা  
+      `SELECT MAX(price) FROM products;`
+
+- [ ] COUNT দিয়ে মোট পণ্যের সংখ্যা বের করা  
+      `SELECT COUNT(*) FROM products;`
+
+- [ ] COUNT DISTINCT দিয়ে ইউনিক ক্যাটাগরির সংখ্যা বের করা  
+      `SELECT COUNT(DISTINCT category) FROM products;`
+
+- [ ] GROUP BY দিয়ে ক্যাটাগরি অনুযায়ী পণ্যের সংখ্যা  
+      `SELECT category, COUNT(*) FROM products GROUP BY category;`
+
+- [ ] GROUP BY দিয়ে ক্যাটাগরি অনুযায়ী গড় মূল্য  
+      `SELECT category, AVG(price) FROM products GROUP BY category;`
+
+- [ ] GROUP BY দিয়ে ক্যাটাগরি অনুযায়ী মোট স্টক পরিমাণ  
+      `SELECT category, SUM(stock_quantity) FROM products GROUP BY category;`
+
+- [ ] GROUP BY দিয়ে ক্যাটাগরি অনুযায়ী সবচেয়ে দামি পণ্য  
+      `SELECT category, MAX(price) FROM products GROUP BY category;`
+
+- [ ] HAVING দিয়ে গড় মূল্য ১০,০০০ টাকার বেশি এমন ক্যাটাগরি ফিল্টার  
+      `SELECT category, AVG(price) FROM products GROUP BY category HAVING AVG(price) > 10000;`
+
+- [ ] HAVING দিয়ে মোট স্টক ২০ এর বেশি এমন ক্যাটাগরি ফিল্টার  
+      `SELECT category, SUM(stock_quantity) FROM products GROUP BY category HAVING SUM(stock_quantity) > 20;`
+
+- [ ] একাধিক Aggregate Function দিয়ে স্টক বিশ্লেষণ  
+      `SELECT COUNT(*), SUM(stock_quantity), AVG(price), MIN(price), MAX(price), SUM(price * stock_quantity) FROM products;`
+
+- [ ] GROUP BY সহ একাধিক ফাংশন দিয়ে ক্যাটাগরি ভিত্তিক বিশ্লেষণ  
+      `SELECT category, COUNT(*), SUM(stock_quantity), AVG(price), MIN(price), MAX(price), SUM(price * stock_quantity) FROM products GROUP BY category;`
+
+
 
 ### ৫। Aggregate Functions ও Grouping
 - [ ] SUM
